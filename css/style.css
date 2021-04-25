@@ -63,7 +63,7 @@ html{
 #navigation.sticky {
     background-color: rgb(32, 36, 70);
     border-bottom: 0.5px solid #4e82be;
-    padding: 15px 30px;
+    padding: 15px 25px;
 }
 
 .bg .menu{
@@ -274,7 +274,7 @@ footer .right-footer a{
         font-size: 20px;
     }
     #navigation{
-        padding: 30px 60px;
+        padding: 25px 30px;
     }
 
     #navigation ul{
@@ -320,10 +320,10 @@ footer .right-footer a{
         height: 30px;
     }
     .banner h1{
-        font-size: 2.8rem;
+        font-size: 2.4rem;
     }
     .banner p{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     #team .person img{
@@ -349,15 +349,22 @@ footer .right-footer a{
     }
 
     footer .right-footer a{
-        font-size: 1rem;
+        font-size: 1.8rem;
         padding-left: 1rem;
     }
     footer .left-footer{
-        width: 50%;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    footer .right-footer{
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
     }
 
     footer .left-footer p{
-        font-size: 0.8rem;
+        font-size: 1rem;
         letter-spacing: 0.5px;
     }
 
