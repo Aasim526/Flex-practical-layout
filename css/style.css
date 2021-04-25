@@ -294,12 +294,22 @@ footer .right-footer a{
     }
     #navigation ul li{
         width: 100%;
-        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     #navigation ul li a{
         font-size: 1.5rem;
         font-weight: 300;
         color: #4e82be;
+    }
+    #navigation ul li:hover{
+        background-color: #4e82be;
+        color: #fff;
+        transition: 0.4s;
+    }
+    #navigation ul li a:hover{
+        color: #fff;
     }
     
     #navigation.active ul{
