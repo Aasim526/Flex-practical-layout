@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* header section starts */
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/dd.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-top: 0.8rem solid #4e82be;
+}
+
+#navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40px 80px;
+    z-index: 10;
+    transition: 0.6s;
+}
+
+#navigation a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#navigation .gray-text{
+    color: #4e82be;
+    font-weight: 400;
+}
+#navigation ul{
+    display: flex;
+    list-style: none;
+}
+
+#navigation ul li{
+    padding: 0 20px;
+}
+
+#navigation ul li a{
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+#navigation ul li a:hover{
+    color: #4e82be;
+    transition: 0.4s;
+}
+
+#navigation.sticky {
+    background-color: rgb(32, 36, 70);
+    border-bottom: 0.5px solid #4e82be;
+    padding: 15px 30px;
+}
+
+.bg .menu{
+    display: none;
+}
+
+    /* banner section starts */
+.banner{
+    width: 80%;
+    position: relative;
+    top: 45%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+.banner h1{
+    font-size: 5rem;
+    font-weight: 200;
+}
+.banner p{
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin-top: 2rem;
+}
+.banner span{
+    color: #4e82be;
+}
+    /* banner section ends */
+
+/* header section ends */
+
+
+/* About section starts */
+.inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#about{
+    min-height: 100vh;
+}
+#about .about-box{
+    width: 33%;
+    padding: 0 20px;
+}
+#about .border{
+    border-left: 0.5px solid #dfdfdf;
+    border-right: 0.5px solid #dfdfdf;
+}
+#about .about-box h3{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #4e82be;
+    line-height: 2.1rem;
+}
+#about .about-box p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: gray;
+    line-height: 1.8rem;
+    margin: 1.6rem 0;
+}
+.more{
+    width: 100px;
+    height: 40px;
+    border: 0;
+    background-color: #4e82be;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+/* About section ends */
+
+
+/* Team section starts */
+#team{
+    width: 100%;
+    background-color: #4e82be;
+    min-height: 70vh;
+}
+.inner-2{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 5%;
+}
+.text-area{
+    width: 100%;
+    margin:0 auto;
+    padding: 65px 0;
+    text-align: center;
+    color: #fff;
+}
+.text-area h2{
+    font-size: 4rem;
+    font-weight: 100;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.text-area p{
+    font-size: 2rem;
+    font-weight: 300;
+    color: #bebebe;
+}
+.person{
+    width: 22%;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    padding: 20px 30px;
+    color: #fff;
+}
+.person:hover{
+    width: 24%;
+    transition: 0.4s;
+}
+.person img{
+    width: 100%;
+    border-radius: 100%;
+}
+.person h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 15px 0;
+}
+.person p{
+    font-size: 0.95rem;
+    color: #bebebe;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+/* Team section ends */
+
+
+/* Gallery section starts */
+#gallery{
+    min-height: 70vh;
+}
+#gallery .text-area h2{
+    color: #4e82be;
+}
+.img-sec{
+    width: 41%;
+}
+.img-sec img{
+    width: 100%;
+    padding-bottom: 25px;
+}
+.img-sec img:hover{
+    width: 120%;
+    transition: 0.4s;
+}
+.img-sec h3{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #4e82be;
+    line-height: 1.33rem;
+}
+.img-sec p{
+    font-size: 1rem;
+    color: #bebebe;
+    line-height: 2rem;
+    padding: 25px 0;
+}
+/* Gallery section ends */
+
+/* Footer starts */
+
+footer .left-footer{
+    width: 50%;
+    padding: 30px 0;
+}
+footer .left-footer p{
+    font-size: 1.4rem;
+    color: #bebebe;
+    letter-spacing: 0.5px;
+}
+footer .right-footer{
+    width: 50%;
+    padding: 30px 0;
+    text-align: right;
+}
+footer .right-footer a{
+    color: #4e82be;
+    font-size: 1.8rem;
+    padding-left: 1.67rem;
+}
+/* Footer ends */
+
+ 
+@media only screen and (max-width:767px) {
+    html{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:600px) {
+
+    .flexbox{
+        flex-wrap: wrap;
+    }
+    .bg .menu{
+        display: block;
+        color: #fff;
+        font-size: 20px;
+    }
+    #navigation{
+        padding: 30px 60px;
+    }
+
+    #navigation ul{
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        overflow: auto;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.6s;
+    }
+    #navigation ul li{
+        width: 100%;
+        margin-top: 15px;
+    }
+    #navigation ul li a{
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: #4e82be;
+    }
+    
+    #navigation.active ul{
+        visibility: visible;
+        opacity: 1;
+    }
+    #about .about-box{
+        width: 100%;
+        margin: 20px 0 20px;
+    }
+    #about .border{
+        border-left: 0;
+        border-right: 0;
+    }
+
+    .more{
+        width: 80px;
+        height: 30px;
+    }
+    .banner h1{
+        font-size: 2.8rem;
+    }
+    .banner p{
+        font-size: 1rem;
+    }
+
+    #team .person img{
+        width: 80%;
+    }
+    #team .person{
+        width: 100%;
+        margin-top: 30px;
+    }
+    #gallery .img-sec{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .text-area{
+        padding: 0;
+        padding-top: 40px;
+    }
+    .text-area h2{
+        font-size: 2rem;
+    }
+    .text-area p{
+        font-size: 1rem;
+    }
+
+    footer .right-footer a{
+        font-size: 1rem;
+        padding-left: 1rem;
+    }
+    footer .left-footer{
+        width: 50%;
+    }
+
+    footer .left-footer p{
+        font-size: 0.8rem;
+        letter-spacing: 0.5px;
+    }
+
+}
