@@ -104,6 +104,7 @@ html{
 }
 .flexbox{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -356,6 +357,10 @@ footer .right-footer a{
     }
     .text-area p{
         font-size: 1rem;
+    }
+
+    .img-sec img:hover{
+        width: 100%;
     }
 
     footer .right-footer a{
